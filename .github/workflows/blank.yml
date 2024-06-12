@@ -24,6 +24,6 @@ jobs:
       - name: terraform init
         run: |
           cd module
-          terraform init
-          terraform plan
-          terraform apply -auto-approve
+          # terraform init
+          # terraform plan
+          terraform destroy -auto-approve
